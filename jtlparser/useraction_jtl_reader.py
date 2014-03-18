@@ -54,7 +54,7 @@ def run(basedir, targetfile):
     header = "<tr><th>URI</th><th>Samples</th><th>Average(ms)</th><th>50% Line</th><th>60% Line</th>" \
              "<th>70% Line</th><th>80% Line</th><th>90% Line</th><th>100% Line</th><th>Min(ms)</th>" \
              "<th>Max(ms)</th><th>HTTP Code</th><th>Errors(%)</th></tr>"
-    html_content = "<table>%s%s</table>" % (header, content)
+    html_content = '<table cellspacing="0" cellpadding="0" border="1">%s%s</table>' % (header, content)
 
     open('d:/tmp/index.html', 'w').write(html_content)
 
