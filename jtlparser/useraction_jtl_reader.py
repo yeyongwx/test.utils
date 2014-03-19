@@ -7,6 +7,7 @@ import time
 from Sampler import Sampler
 from jtlsaxparser import UserDecodeHandler
 
+
 def run(basedir, targetfile):
     import os
     parser = make_parser()
